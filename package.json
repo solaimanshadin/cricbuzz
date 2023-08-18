@@ -1,0 +1,33 @@
+{
+  "name": "cricket-scorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server",
+    "dev": "npm run webpack-dev-server -- --env mode=development",
+    "build": "npm run webpack -- --env mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shadin_selise@bitbucket.org/shadin_selise/cricket-scorer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/shadin_selise/cricket-scorer/issues"
+  },
+  "homepage": "https://bitbucket.org/shadin_selise/cricket-scorer#readme",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
